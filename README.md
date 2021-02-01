@@ -3,7 +3,7 @@
 quick receipe to install on linux ubuntu 18
 
 ## Install
- sudo apt-get install python3-pip 
+``` sudo apt-get install python3-pip 
  sudo pip3 install setuptools
  sudo pip3 install moviepy
  sudo pip3 install scikit-build
@@ -12,7 +12,7 @@ quick receipe to install on linux ubuntu 18
  sudo pip3 install cython
  sudo pip3 install moviepy[optional]
  sudo apt-get install ffmpeg
-
+```
 edit policy.xml
 
 sudo nano /etc/ImageMagick-6/policy.xml
