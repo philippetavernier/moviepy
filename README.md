@@ -48,3 +48,7 @@ comment out (or remove the line that reads)
 
 <!-- <policy domain="path" rights="none" pattern="@*" /> -->
 ```
+
+
+## USAGE EXAMPLE
+https://zulko.github.io/moviepy/ref/videofx/moviepy.video.fx.all.crop.html
