@@ -14,9 +14,10 @@ quick receipe to install on linux ubuntu 18
  sudo apt-get install ffmpeg
 ```
 edit policy.xml
-
+```
 sudo nano /etc/ImageMagick-6/policy.xml
-
+```
+```
 <policymap>
   <!-- <policy domain="resource" name="temporary-path" value="/tmp"/> -->
   <!-- <policy domain="resource" name="memory" value="2GiB"/> -->
@@ -40,8 +41,10 @@ sudo nano /etc/ImageMagick-6/policy.xml
   <policy domain="coder" rights="none" pattern="PLT" />
   <policy domain="path" rights="none" pattern="@*" />
 </policymap>
-
+```
 comment out (or remove the line that reads)
+```
 <policy domain="path" rights="none" pattern="@*" />
 
 <!-- <policy domain="path" rights="none" pattern="@*" /> -->
+```
