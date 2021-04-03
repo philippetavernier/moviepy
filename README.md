@@ -3,16 +3,26 @@
 quick receipe to install on linux ubuntu 18
 
 ## Install
-``` sudo apt-get install python3-pip 
- sudo pip3 install setuptools
- sudo pip3 install moviepy
- sudo pip3 install scikit-build
- sudo pip3 install cmake
-
- sudo pip3 install cython
- sudo pip3 install moviepy[optional]
- sudo apt-get install ffmpeg
+### System
 ```
+sudo apt-get install python3.8
+sudo apt-get install python3.8-dev
+sudo apt-get install cmake
+sudo apt-get install python3-pip
+sudo apt-get install ffmpeg
+```
+
+### PIP
+```
+pip3 install setuptools
+pip3 install moviepy
+pip3 install scikit-build
+pip3 install cmake
+pip3 install cython
+pip3 install moviepy[optional]
+
+```
+### configure ImageMagick
 edit policy.xml
 ```
 sudo nano /etc/ImageMagick-6/policy.xml
@@ -47,6 +57,12 @@ comment out (or remove the line that reads)
 <policy domain="path" rights="none" pattern="@*" />
 
 <!-- <policy domain="path" rights="none" pattern="@*" /> -->
+
+```
+### Test (working with python3.6)
+```
+ python3.6 test.py 
+
 ```
 
 
